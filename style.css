@@ -5,6 +5,7 @@ body{
     position: relative;
     min-height: 100%;
     padding-bottom: 150px;
+    font-size: medium;
 }
 
 footer{
@@ -109,7 +110,7 @@ textarea{
 
 .navbar-nav{
     padding-right: 20px;
-    border-right: 2px solid #777777;
+    /* border-right: 2px solid #777777; */
     margin-right: 20px;
 }
 
