@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Etusivu</title>
+    <title>Aleksi Purmonen</title>
 </head>
 <body>
     <nav class="navbar navbar-default gradient-border-bottom gap-bottom">
@@ -24,14 +24,16 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="index.html">Projektit</a></li>
+            <li><a href="index.html#sec1">Esittely</a></li>
+            <li><a href="index.html#sec2">Osaaminen</a></li>
+            <li><a href="index.html#sec3">Projektit</a></li>
+            <li><a href="index.html#sec4">Yhteystiedot</a></li>
           </ul>
       </div>
     </div>
   </nav>
     <main>
-        <div class="container">
+        <div class="container gap-top">
             <h1><b>Aleksi Purmonen</b></h1>
             <div class="row">
                 <div class="col-md-12">
@@ -40,51 +42,55 @@
             </div>
         </div>
         
-        <div class="row gradient-border-both gap-top">
-            <div class="container gap-small">
-                <!-- <h3><b>otsikko</b></h3> -->
+        <div class="row gradient-border-both gap-bottom gap-top" id="sec1">
+          <div class="container gap-small">
+              <h3><b>Esittely</b></h3>
                 <div class="col-md-12">
                     <p>Teksti</p>
                 </div>
             </div>
         </div>
-        <div class="container gap-top">
+
+
+        <div class="container gap-bottom" id="sec2">
             <div class="row">
-                <!-- <h3><b>otsikko</b></h3> -->
+                <h3><b>Osaaminen</b></h3>
                 <div class="col-md-12">
-                    <p>Teksti</p>
-                </div>
-            </div>
-        </div>
+                  <table class="table">
+                      <th>Ohjelmointikielet</th>
+                      <th>Muut teknologiat</th>
 
-        
-
-        <div class="container">
-            <h2><b>Otsikko</b></h1>
-        </div>
-        
-        <div class="row gradient-border-both gap-top">
-            <div class="container gap-small">
-                <div class="col-md-12">
-                    <p>Teksti</p>
+                      <tr><td>C#</td><td>Unity</td></tr>
+                      <tr><td>HTML</td><td>Bootstrap</td></tr>
+                      <tr><td>PHP</td><td>MySQL</td></tr>
+                      <tr><td>JavaScript</td><td></td></tr>
+                  </table>
                 </div>
               </div>
-        </div>    
-          <br>
-          <div class="container">
-            <p>Teksti</p>
-          </div>   
-            <div class="row gradient-border-both gap-top">
+            </div>
+            
+            <div class="row gradient-border-both gap-bottom" id="sec3">
               <div class="container gap-small">
-                <div class="col-md-12">
-                  <p>Teksti</p>
+              <h3><b>Projektit</b></h3>
+              <div class="col-md-12">
+                <a href="https://tvt-linux.tvtedu.fi/~213583/frontend">1</a>
+                <a href="https://tvt-linux.tvtedu.fi/~213583/frontend">2</a>
+                <a href="https://215776.tvtedu.fi/Budjettiseuranta/budjet_project/public/home.html">3</a>
               </div>
             </div>
-          </div>
-          <br>
-          <div class="container gap-top">
-            <p>Teksti</p>
-          </div>
+          </div>    
+
+          <div class="container gap-bottom" id="sec4">
+            <div class="row">
+                <h3><b>Yhteystiedot</b></h3>
+                <div class="col-md-12">
+                  <ul>
+                    <li>Sähköposti: aleksipurmonen@outlook.com</li>
+                    <li>Puh. 0456071117</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
     </main>
 </body>
 </html>
