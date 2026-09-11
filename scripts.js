@@ -1,6 +1,7 @@
 const nimi = document.getElementById("nimi");
 let colors = [0,0,0,0,0,0];setInterval(() => {
 nimi.style.color = color();
+nimi.style.textShadow = `${Math.random() * 20 - 10}px 0 ${Math.random() * 20}px`;
 }, 10);
 function color(){
       var hex = '48ADF';

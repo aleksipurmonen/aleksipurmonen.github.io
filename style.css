@@ -8,3 +8,7 @@ body{
     max-width: 700px;
     margin-inline: auto;
 }
+
+h1{
+    text-shadow: 0px 0px 15px ;
+}
