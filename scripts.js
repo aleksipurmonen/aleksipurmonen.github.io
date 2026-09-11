@@ -1,3 +1,4 @@
+// return
 const nimi = document.getElementById("nimi");
 let colors = [0,0,0,0,0,0];setInterval(() => {
 nimi.style.color = color();
