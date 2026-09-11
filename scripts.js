@@ -1,8 +1,11 @@
 // return
-const nimi = document.getElementById("nimi");
+const colortext = document.getElementsByClassName("colors");
 let colors = [0,0,0,0,0,0];setInterval(() => {
-nimi.style.color = color();
-nimi.style.textShadow = `${Math.random() * 20 - 10}px 0 ${Math.random() * 20}px`;
+    for (let i = 0; i < colortext.length; i++) {
+        const text = colortext[i];
+        text.style.color = color();
+        text.style.textShadow = `${Math.random() * 20 - 10}px 0 ${Math.random() * 20}px`;
+    }
 }, 10);
 function color(){
       var hex = '48ADF';
@@ -19,4 +22,3 @@ function color(){
         }
         return color;
 }
-    
